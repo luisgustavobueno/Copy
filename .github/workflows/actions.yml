@@ -16,6 +16,7 @@ jobs:
           git config --global user.name "Luis"
           git config --global user.email "luisgustavobuenocolombo@gmail.com"
           git clone https://github.com/luisgustavobueno/Pull
+          git submodule add https://github.com/luisgustavobueno/Pull Pull
           git add .
           git commit -m "Commit da action"
           git push
