@@ -14,7 +14,7 @@ jobs:
         run: 
           git clone https://github.com/luisgustavobueno/Pull
       - name: Clonando para o repositorio
-        run: 
-          git add . 
+        run: |
+          git add .
           git commit -m "Commito da action"
           git push
