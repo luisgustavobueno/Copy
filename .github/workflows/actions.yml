@@ -14,7 +14,7 @@ jobs:
         run: |
           git config --global user.name "Luis"
           git config --global user.email "luisgustavobuenocolombo@gmail.com"
-          
+          git clone https://github.com/luisgustavobueno/Pull
           git remote add origin https://github.com/luisgustavobueno/Copy
           git add .
           git commit -m "Commito da action"
