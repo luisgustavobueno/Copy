@@ -15,6 +15,8 @@ jobs:
           git clone https://github.com/luisgustavobueno/Pull
       - name: Clonando para o repositorio
         run: |
-          git add .
+          git config --global user.name "Luis"
+          git config --global user.email "luisgustavobuenocolombo@gmail.com"
+          git add -A
           git commit -m "Commito da action"
           git push
